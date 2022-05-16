@@ -52,6 +52,7 @@ import susScr11 from "./susScr11/susScr11";
 import susScr3 from "./susScr3/susScr3";
 import oviAri4 from "./oviAri4/oviAri4";
 import CHMV2 from "./t2t-chm13-v2.0/chm13v2";
+import PICRH from "./picrh/picrh";
 
 /**
  * All available genomes.
@@ -111,6 +112,7 @@ export const allGenomes = [
     rheMac10,
     RN7,
     CHMV2,
+    PICRH,
 ];
 
 const genomeNameToConfig = {};
@@ -197,7 +199,7 @@ export const treeOfLife: { [speciesName: string]: SpeciesConfig } = {
     },
     mouse: {
         logoUrl: "https://epigenomegateway.wustl.edu/browser/images/Mouse.png",
-        assemblies: [MM39.genome.getName(), MM10.genome.getName(), MM9.genome.getName()],
+        assemblies: [MM39.genome.getName(), MM10.genome.getName(), MM9.genome.getName(), PICRH.genome.getName()],
         color: "yellow",
     },
     rat: {

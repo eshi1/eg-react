@@ -1,0 +1,25 @@
+{
+    "Ruler": [
+        {
+            "type": "ruler",
+            "label": "Ruler",
+            "name": "Ruler"
+        }
+    ],
+    "Genome Annotation": [
+        {
+            "type": "refbed",
+            "name": "PICRH RefBed",
+            "url": "http://XXXX/cors-downloads/PICRH/PICRH_refbed_Gene.bed.gz",
+            "options": {
+                    "categoryColors": {
+                        "coding": "rgb(101,1,168)",
+                        "nonCoding": "rgb(1,193,75)",
+                        "pseudo": "rgb(230,0,172)",
+                        "problem": "rgb(224,2,2)",
+                        "other":"rgb(128,128,128)"
+                    }
+                }
+        }
+    ]
+}
